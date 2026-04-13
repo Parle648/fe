@@ -669,7 +669,7 @@
 
         try {
           const res = await fetch(
-            `${API}/subscriptions?email=${encodeURIComponent(email)}`,
+            `${API}/subscriptions?email=${email}`,
           );
           const data = await res.json();
 
